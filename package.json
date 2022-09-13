@@ -1,0 +1,25 @@
+{
+  "name": "tailwindcss-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetpalavan/tailwindcss-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmetpalavan/tailwindcss-site/issues"
+  },
+  "homepage": "https://github.com/ahmetpalavan/tailwindcss-site#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.10",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
